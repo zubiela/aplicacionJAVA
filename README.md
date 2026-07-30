@@ -6,12 +6,12 @@ JAVA MENTOR DAM es una aplicación educativa estática para estudiar Programaci�
 
 - Pantalla de inicio con progreso, XP, tiempo de estudio y acceso rápido.
 - Navegación SPA sin recargas: Inicio, Temario, Ejercicios, Exámenes, Retos, Mi progreso y Configuración.
-- Unidad 1 completa sobre primeros pasos con Java, reescrita con explicaciones sencillas, ejemplos, errores frecuentes, consejos, curiosidades y resumen.
-- 30 ejercicios interactivos:
+- Unidades 1 a 4 adaptadas al material subido: introducción a Java, estructuras de control, fundamentos de POO/String y control de excepciones.
+- Banco de ejercicios interactivos ajustado al material:
   - 10 preguntas tipo test.
   - 10 ejercicios de completar código.
   - 10 ejercicios de escribir código.
-- Mini examen de la Unidad 1 con modo práctica.
+- Mini examen de la Unidad 1 con modo práctica y unidades posteriores con preguntas test, completar código y ejercicios abiertos.
 - Persistencia en LocalStorage: XP, porcentaje, ejercicios realizados, aciertos, errores, tiempo estudiado, unidades completadas y última sesión.
 - Modo oscuro, exportación, importación y reinicio de progreso.
 
@@ -68,4 +68,4 @@ Añade un archivo en `exams/` que empuje objetos a `window.JAVA_MENTOR_EXAMS`. C
 - Aprender practicando: cada bloque de teoría debe llevar a una interacción.
 - Código sin frameworks para mantener portabilidad total.
 - Separación clara entre contenido, estado, navegación, corrección y presentación.
-- Preparado para incorporar el material real del profesor sin copiarlo literalmente.
+- Contenidos alineados con los apuntes y prácticas de `Material/`, sin copiar literalmente los documentos.
