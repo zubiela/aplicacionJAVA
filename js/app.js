@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const p=Storage.load();document.body.classList.toggle('dark',p.darkMode);document.getElementById('theme-toggle').addEventListener('click',()=>{const next=!document.body.classList.contains('dark');document.body.classList.toggle('dark',next);Storage.save({darkMode:next})});Navigation.init();Navigation.go('home')});

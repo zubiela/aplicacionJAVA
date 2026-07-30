@@ -1,0 +1,1 @@
+.fade-in{animation:fade .25s ease}.card,.button,.nav-link{transition:transform .18s ease,background .18s ease,box-shadow .18s ease}.card:hover{transform:translateY(-2px)}.button:hover{transform:translateY(-1px)}@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
